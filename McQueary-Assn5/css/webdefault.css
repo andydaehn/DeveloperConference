@@ -1,0 +1,92 @@
+
+/* This is a css file for the conference website*/
+body{
+    font-family: Arial, Verdana, Sans-serif;
+    color: #111111;}
+table{
+    width: 800px;}
+th, td{
+    padding: 7px 10px 10px 10px;}
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;}
+tr.even{
+    background-color: #efefef;}
+tr.hover{
+    background-color: #c3e6e5;}
+
+
+
+
+
+.container{
+    width: 70%;
+    height: 500px;
+    background: aqua;
+    margin: auto;
+    padding: 10px;
+    text-align: center}
+
+.one{
+    width: 50%;
+    height: 200px;
+    float: left;}
+.two{
+    margin-left: 50%;
+    height: 200px;
+
+}
+.three{
+    text-align: center;
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    padding: 10px;
+    background: cornflowerblue;
+    bottom: auto;
+}
+
+.keynotes{
+    width: 80%;
+    height: 500px;
+    background: black;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.phil{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background: seagreen;
+}
+.palmer{
+    width: 50%;
+    margin-left: 50%;
+    height: 490px;
+    background: orange;
+    padding-top: inherit;
+
+}
+
+/*This section is for the fieldsets on the registration page*/
+/* hover textfields color*/
+input:hover {
+    background-color: aqua;
+}
+/* click into text field color*/
+input:focus {
+    background-color: lightblue;
+}
+/* hover over field set color*/
+fieldset:hover {
+    background-color: lightskyblue;
+    border-color: darkblue;
+    text-decoration: underline;
+}
